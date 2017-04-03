@@ -1,3 +1,4 @@
+// https://discuss.leetcode.com/topic/14597/solution-explained
 // Time complexity = O(n)
 // Discard half each time: n+(n/2)+(n/4)..1 = n + (n-1) = O(2n-1) = O(n), because n/2+n/4+n/8+..1=n-1.
 public int findKthLargest(int[] nums, int k) {
